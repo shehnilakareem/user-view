@@ -1,0 +1,47 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div ng-app="">
+  <nav id="menu">
+  
+        <img class = "logo"  src="assets/images/mf-logo.svg">
+  <!-- <div class="reset" (click) = "onClick()" ><fa></div> -->
+    <!-- <button (mouseover)="onClick()" >Click it</button> -->
+  </nav>
+  <hr style="clear: both;">
+  <div class="image">
+    <img src="assets/images/mf-avatar.svg">
+  </div>
+  <h1 class="title" style="margin-top: -5%; font-weight: 400;">Thanks for taking the time to reach out. What can I do for you today?</h1>
+  <div class="clear"></div>
+  <!-- <div class="edit">
+    <ul class="field_list">
+      <li>
+        <input type="text" placeholder="Enter your name">
+      </li>
+      <li>
+        <input type="email" placeholder="Enter your Email">
+      </li>
+      
+    </ul>
+    <textarea class="comment" type="text" placeholder="Comment...."></textarea>
+  </div> -->
+  <form>
+    <div class="fr">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" class="form-control" #name placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" #lname placeholder="Last name">
+        </div>
+        <!-- <div class="clear"></div> -->
+
+        
+      </div>
+      <textarea class="comment" type="text" #comment placeholder="Comment...."></textarea>
+    </div>
+    </form>
+    <div class="d-flex align-items-center justify-content-center v-100" >
+        <div class="ovalbutton" (click) = "sendmail(name.value,lname.value,comment.value)">Submit
+        </div>
+      </div>
+  </div>

@@ -1,0 +1,78 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css';
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; }
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    
+    clear: both;
+    padding-top: 5%;
+    /* font-size: 40px; */
+    font-family: Agency FB;
+    text-align: center;
+    font-weight: 800;
+
+}
+#menu {
+		height:auto;
+        width:auto;
+        
+}
+.logo,.ovalbutton {
+    margin-left: 14.8%;
+    margin-right: 14.8%;
+    margin-top: 1.4%;
+    display: inline-block
+}
+.ovalbutton:hover{
+    background-color: #8C43FF;
+    color: white;
+}
+.logo{
+    float: left;
+   /* height: 40px; */
+   /* height: 40px;  */
+}
+.ovalbutton
+{
+    /* position: fixed; */
+    float: right;
+    padding: 6px 22px 6px 22px;
+    font-size: 18px;
+    font-family: 'Arial';
+    border: 2px solid #8C43FF;
+    border-radius: 25px;
+    color: #8C43FF;
+    transition: background-color 0.5s ease;
+
+ }
+ @media only screen and (max-width:440px){
+    .logo,.ovalbutton {
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: lightblue;
+    }
+}

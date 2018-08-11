@@ -1,0 +1,100 @@
+
+.image img{
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+   margin: -50px auto 50px;
+   display: block;
+   z-index: 10;
+}
+#menu{
+    padding-bottom: 100px;
+}
+.edit{
+    margin-top: 5%;
+    /* clear: both; */
+    position: fixed;
+    display : block;
+    box-sizing: border-box;
+    position: fixed;
+    
+    /* border : 1px solid black; */
+    padding : 1px 1px 1px 1px;
+    white-space: nowrap;
+    width : 100%;
+    clear : both;
+    text-align : center;
+}
+ .field_list{
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+ 
+    display: inline;
+    
+    list-style-type: none;
+}
+/*.field_list i:last-child{
+    color: #fff;
+    display: inline-block;
+    margin: 0;}*/
+.field_list li{
+font-size: 25px;
+display: inline-block;
+margin: 0 55px 0 0;
+} 
+input:focus{
+    outline: none;
+}
+input{    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    /* border-radius: 4px; */
+
+    border-bottom-color: #b3b3b3;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #b3b3b3;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #b3b3b3;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: #b3b3b3;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ .comment{
+    margin-top: 5%;
+    /* clear: both; */
+    /* display : block; */
+    /* box-sizing: border-box; */
+    
+     
+    /* border : 1px solid black; */
+    margin-left: auto;margin-right: auto;
+    padding : 2% 2% 2% 2%;
+
+    /* white-space: nowrap; */
+    width :100%;
+
+    height: 15rem;
+    /* clear : both; */
+    text-align : left;
+
+
+ }
+
+
+ .fr{
+     margin-left: 30%;
+     margin-right: 30%;
+ }

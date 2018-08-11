@@ -1,0 +1,393 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div ng-app="">
+  <nav id="menu" >
+  
+        <img class = "logo"  src="assets/images/mf-logo.svg">
+  <div class="ovalbutton" (click) = "onClick()" >Say Hello</div>
+    <!-- <button (mouseover)="onClick()" >Click it</button> -->
+  </nav>
+  <section class="content-body">
+  <div class="section-body">
+    <div class="container">
+      <h1 class="title">
+        Designer, Front End Developer, Android Developer & Mentor
+      </h1>
+      <h2 class="detail-title">
+        I design and code beautifully simple things, and I love what I do.
+      </h2>
+      <img class="avatar" src="assets/images/mf-avatar.svg"> 
+    </div>
+  </div>
+  
+  <div class="section-foot">
+      <div class="container">
+        <img class="foot-image" src="assets/images/hero.png">
+      </div>
+    </div>
+  </section>
+  <section class="meet-with-me">
+    <div class="container">
+      <div class="column">
+        <h1 class="title">
+          Hi, I'm Shehnila. Nice to meet you!
+        </h1>
+        <p  class="subtitle">
+            Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually improving my chops.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="experience-cards">
+  
+    <div class="container">
+        <div class="box">
+          <div class="row">
+            <div class="col-sm-4 colm4 sideB">
+                <!-- <div class="colm4"> -->
+  
+                <img src="assets/images/icon-designer.svg">
+                <h2 class="title">Designer</h2>
+                <p class="para">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                <p class="title2">Things I enjoy designing</p>
+                <p class="para2">UX, UI, Web, Mobile, Apps, Logos</p>
+                <p class="title2">Design Tools:</p>
+                <div class="wrapper">
+                  <ul>
+                      <li>Blasmiq Mockups</li>
+                      <li>Figma</li>
+                      <li>Invision</li>
+                      <li>Marvel</li>
+                      <li>Pen & Paper</li>
+                      <li>Sketch</li>
+                      <li>Webflow</li>
+                      <li>Zeplin</li>
+                    </ul>
+              </div>
+  <!-- </div> -->
+            </div>
+            <div class="col-md-4 colm4 sideB">
+                <!-- <div class="colm4"> -->
+  
+                <img  src="assets/images/icon-frontend.svg">
+                <h2 class="title">Designer</h2>
+                <p class="para">I tend to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                <p class="title2">Languages I speak</p>
+                <p class="para2">UX, UI, Web, Mobile, Apps, Logos</p>
+                <p class="title2">Dev Tools:</p>
+                <div class="wrapper">
+                  <ul>
+                    <li>Blasmiq Mockups</li>
+                    <li>Figma</li>
+                    <li>Invision</li>
+                    <li>Marvel</li>
+                    <li>Pen & Paper</li>
+                    <li>Sketch</li>
+                    <li>Webflow</li>
+                    <li>Zeplin</li>
+                  </ul>
+              </div>
+  <!-- </div> -->
+  
+            </div>
+            <div class="col-md-4 colm4 classC">
+              <!-- <div class="colm4"> -->
+                <img src="assets/images/icon-mentor.svg">
+                <h2 class="title">Designer</h2>
+                <p class="para">I genuinely care about people, and love helping new designers work on their craft.</p>
+                <p class="title2">Where I teach</p>
+                <p class="para2">UX, UI, Web, Mobile, Apps, Logos</p>
+                <p class="title2">Mentor Status:</p>
+                <div class="wrapper">
+                  <ul>
+                    <li>Blasmiq Mockups</li>
+                    <li>Figma</li>
+                    <li>Invision</li>
+                    <li>Marvel</li>
+                    <li>Pen & Paper</li>
+                    <li>Sketch</li>
+                    <li>Webflow</li>
+                    <li>Zeplin</li>
+                  </ul>
+              </div>
+            <!-- </div> -->
+  
+            </div>
+          </div>
+        </div>
+        </div>
+  </section>
+  
+  <section class="recent-work-cards">
+  <div class="container">
+    <div class="head">
+      <h1 class="title">
+        My Recent Work
+      </h1>
+      <p class="para">
+        Here are some recent design projects. Want to see more? <a href="#">Email me</a>
+      </p>
+    </div>
+    <div class="grid">
+      <div class="row">
+        <div class="col-sm-4 col-work">
+        <figure class="fig">
+  <!-- <div style="overflow: hidden; height: 100%; width: 100%"></div> -->
+            <img  src="assets/images/project-chronicled.png">
+          <!-- </div> -->
+            <div id="myNav" class="overlay">
+              <div class="wrapper">
+              <p class="image-title" >Blockchain pioneers bringing transparency, trust and security to supply</p>
+              <div class="ovalbutton2" (click)="visitProject()"  >Visit Website</div></div>
+
+              
+            </div>
+        </figure>
+  
+  
+        </div>
+        <div class="col-sm-4 col-work">
+          <figure class="fig">
+            <img  src="assets/images/project-glcsolutions.png">
+            <div id="myNav" class="overlay">
+              <p class="image-title">Blockchain pioneers bringing transparency, trust and security to supply</p>
+              <div class="ovalbutton2"  (click)="visitProject()"  >Visit Website</div></div>
+    
+          </figure>
+        </div>
+        <div class="col-sm-4 col-work">
+            <figure class="fig">
+                <img  src="assets/images/project-coupal.png">
+                <div id="myNav" class="overlay">
+                  <p class="image-title">Blockchain pioneers bringing transparency, trust and security to supply</p>
+                  <div class="ovalbutton2" (click)="visitProject()"   >Visit Website</div></div>
+                  
+              </figure>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4 col-work">
+          <figure class="fig">
+    <!-- <div style="overflow: hidden; height: 100%; width: 100%"></div> -->
+              <img  src="assets/images/project-userforge.png">
+            <!-- </div> -->
+              <div id="myNav" class="overlay">
+                <p class="image-title">Blockchain pioneers bringing transparency, trust and security to supply</p>
+                        <div class="ovalbutton2"  (click)="visitProject()"  >Visit Website</div></div>
+    
+          </figure>
+    
+    
+          </div>
+          <div class="col-sm-4 col-work">
+            <figure class="fig">
+              <img  src="assets/images/project-wedlerengineering.png">
+              <div id="myNav" class="overlay">
+                <p class="image-title">Blockchain pioneers bringing transparency, trust and security to supply</p>
+                <div class="ovalbutton2" (click)="visitProject()"   >Visit Website</div></div>
+      
+            </figure>
+          </div>
+          <div class="col-sm-4 col-work">
+              <figure class="fig">
+                  <img  src="assets/images/project-southwestforestproducts.png">
+                  <div id="myNav" class="overlay">
+                    <p class="image-title">Blockchain pioneers bringing transparency, trust and security to supply</p>
+                    <div class="ovalbutton2" (click)="visitProject()"   >Visit Website</div></div>
+          
+                </figure>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-work">
+            <figure class="fig">
+      <!-- <div style="overflow: hidden; height: 100%; width: 100%"></div> -->
+                <img  src="assets/images/project-chronicled.png">
+              <!-- </div> -->
+                <div id="myNav" class="overlay">
+                  <p class="image-title">Blockchain pioneers bringing transparency, trust and security to supply</p>
+                        <div class="ovalbutton2"  (click)="visitProject()"  >Visit Website</div></div>
+      
+            </figure>
+      
+      
+            </div>
+            <div class="col-sm-4 col-work">
+              <figure class="fig">
+                <img  src="assets/images/project-coupal.png">
+                <div id="myNav" class="overlay">
+                  <p class="image-title">Blockchain pioneers bringing transparency, trust and security to supply</p>
+                        <div class="ovalbutton2"  (click)="visitProject()"  >Visit Website</div>
+                      </div>
+        
+              </figure>
+            </div>
+            <div class="col-sm-4 col-work">
+                <figure class="fig">
+                    <img  src="assets/images/project-coupal.png">
+                    <div id="myNav" class="overlay">
+                        <p class="image-title">Blockchain pioneers bringing transparency, trust and security to supply</p>
+                        <div class="ovalbutton2" (click)="visitProject()"   >Visit Website</div>
+                      </div>
+
+  
+                  </figure>
+            </div>
+          </div>
+    </div>
+  </div>
+  </section>
+  
+  <section class="see-more">
+    <div class="container" style="margin-bottom: 10%">
+      <div class="d-flex align-items-center justify-content-center v-100" >
+        <div class="ovalbutton"><i class="fa fa-dribbble" ></i> More on Dribbles
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <div class="clear"></div>
+  <!-- <section class="meet-with-me">
+    <div class="container">
+      <div class="wrapper">
+        <h1 class="title">
+          My Startup Projects
+        </h1>
+        <p  class="subtitle">
+            I'm a bit of a digital product junky. Over the years, I've demoed and trialed hundreds of web and mobile apps in different industries and verticals. Eventually, I decided that it would be a fun challenge to try designing and building my own.
+        </p>
+      </div>
+    </div>
+  </section> -->
+  <section class="recent-work-cards forstyle">
+      <div class="container forstyle">
+  
+        <!-- <div class="grid">
+          <div class="row">
+            <div class="col-sm-4 col-work row-eq-height">
+            <figure class="fig2">
+      
+                <img  src="assets/images/basin-logo.svg">
+                <p class="wrapper">Simple form backend for designers and developers. Easy to setup. No coding required.</p>
+      
+              <a href="#">www.usebasin.com</a>
+            </figure>
+      
+      
+            </div>
+            <div class="col-sm-4 col-work row-eq-height">
+              <figure class="fig2">
+                <img  src="assets/images/ylb-logo.svg">
+                <p class="wrapper">Beautifully simple websites for independent distributors of Young Living Essential Oils.</p>
+                  
+                <a href="#">www.ylbuilders.com</a>
+              </figure>
+            </div>
+            <div class="col-sm-4 col-work row-eq-height">
+                <figure class="fig2">
+                    <img  src="assets/images/houston-logo.png">
+                    <p class="wrapper">Simple feedback and engagement tools for teams that want to build and ship winning products.</p>
+                    <a href="#">www.ylbuilders.com</a>
+                  </figure>
+            </div>
+            
+          </div>
+  
+        </div> -->
+  
+        <h2 class="title">Interested in collaborating or investing?</h2>
+        <p class="wrapper discussion-para">I’m always open to discussing product design work or partnership opportunities.</p>
+        <div class="d-flex align-items-center justify-content-center v-100" >
+          <div class="ovalbutton">Start a conversation</div>
+        </div>
+  
+      </div>
+      </section>
+      <hr>
+      <section class="testimonials">
+        <h2 class="title">Testimonials</h2>
+        <p class="wrapper discussion-para">People I've worked with have said some nice things...</p>
+        <img class="round-img" src="assets/images/client.webp">
+        <div class="para3">
+        <h3>"It was very awesome, unbelievable experience, he is really friendly, hopefully i ll work for another project too. nice job buddy."</h3>
+      </div>
+      </section>
+      <section class="meet-with-me">
+          <div class="container">
+            <div class="wrapper">
+              <img src="assets/images/mf-logo-white.svg">
+                
+              <p style="color: lightgray; text-align: center; font-family: Agency FB; font-size: 25px;margin-top: 2rem;">
+                  Living, learning, & leveling up one day at a time.
+              </p>
+              <ul>
+                <li style="list-style-type: none;float: left;margin:0px 1rem">
+                  <div class="round-icons"><i class="fa fa-twitter" style="text-align: center; vertical-align: middle; "></i>
+                  </div></li>
+                  <li style="list-style-type: none;float: left;margin:0px 1rem">
+                      <div class="round-icons"><i class="fa fa-dribbble" style="text-align: center; vertical-align: middle"></i>
+                      </div></li>
+                      <li style="list-style-type: none;float: left;margin:0px 1rem">
+                          <div class="round-icons"><i class="fa fa-linkedin" style="text-align: center; vertical-align: middle"></i>
+                          </div></li>
+                          <li style="list-style-type: none;float: left;margin:0px 1rem">
+                              <div class="round-icons"><i class="fa fa-product-hunt" style="text-align: center; vertical-align: middle"></i>
+                              </div></li>
+                              <li style="list-style-type: none;float: left;margin:0px 1rem">
+                                  <div class="round-icons"><i class="fa fa-envelope-o" style="text-align: center; vertical-align: middle"></i>
+                                  </div></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        
+        <!-- <div  class="overlay1" [style.visibility]="isMiddleDivVisible ? 'visible' : 'hidden'"  #someVar> -->
+<div  class="overlay1"   #someVar>
+          <!-- Button to close the overlay navigation -->
+          <a href="#" class="closebtn" #close (click)="closeProject()">&times;</a>
+          <!-- <div class="clear"></div> -->
+        
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/la.jpg" alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>Los Angeles</h3>
+                  <p>We had such a great time in LA!</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/chicago.jpg" alt="Chicago" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>Chicago</h3>
+                  <p>Thank you, Chicago!</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/ny.jpg" alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                  <h3>New York</h3>
+                  <p>We love the Big Apple!</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          
+        </div>   
+  </div>
+  
+  

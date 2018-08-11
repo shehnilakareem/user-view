@@ -1,0 +1,485 @@
+
+.container{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+ .content-body{
+     display: block;
+     margin: auto;
+     /* position: relative; */
+ }
+ .detail-title{
+     text-align: center;
+     font-family: Arial;
+     font-weight: 300;
+     margin-top: 2rem;
+     font-size: 20px;
+     }
+.avatar{
+    display: block;
+    margin-top: 5%;
+        max-width: 20%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.foot-image{
+
+    margin-top: 5%;
+    max-width: 55%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.meet-with-me{
+    background: #8C43FF;
+    padding: 8rem 8rem 16rem 8rem;
+    color: white;
+    margin-top: 0px;
+}
+@media only screen and (max-width:786px){
+    .meet-with-me{
+        /* background: #8C43FF; */
+        padding: 8rem 4rem 16rem 4rem;
+        /* color: white; */
+        /* margin-top: 0px; */
+    }
+
+}
+@media only screen and (max-width:444px){
+    .meet-with-me{
+        /* background: #8C43FF; */
+        padding: 8rem 1rem 16rem 1rem;
+        /* color: white; */
+        /* margin-top: 0px; */
+    }
+
+}
+.subtitle{
+    font-family: arial;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    /* line-height: 1.5;
+    word-break: break-word; */
+}
+/* .cards li{
+    list-style-type: none;
+    float: left;
+    margin: 0% 5% 0% 5%;
+    text-align: center;
+} */
+.column{
+    display: block;
+    height: auto;
+    width: auto;
+}
+.box{
+    clear: both;    
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    background-color: white;
+    /* padding: 16rem; */
+    margin-top:-100px; 
+    
+    z-index: -10;
+    margin-bottom: 10px;
+}
+.colm4{
+    padding-top: 5%;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   padding-left: 3%;
+   padding-right: 2%;
+   padding-bottom: 5%;
+
+}
+
+
+.para,.wrapper{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2vw;
+    list-style-type: none;
+}
+.title2{
+    text-align: center;
+    color: #8C43FF;
+    font-weight: 500;
+}
+.para2{
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 19px;
+    /* list-style-type: none; */
+    
+}
+/* .wrapper {
+    text-align: center;
+} */
+.wrapper ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* For IE, the outcast */
+    /* zoom:1;
+    *display: inline; */
+}
+.wrapper li {
+    padding: 2px ;
+}
+a{
+    color: #8C43FF;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.fig {
+    position: relative;
+    font-weight: normal;
+    display: inline-block;
+    /* height: 100%; */
+    width: 100%;
+    transform: scale(0.9);
+
+    
+  }
+  .fig img {
+    border-radius: 10px;
+
+    display: inline-block;
+    height: auto;
+    width: 100%;
+  }
+
+  .fig:hover .overlay {
+      border-radius: 10px;
+    opacity: 1;
+    /* height: 100%;
+    width: 100%; */
+    background-color: #555;
+max-width: 100%;
+max-height: 100%;
+    transition: opacity 0.45s ease-in-out;
+
+    color: black;
+    font-weight: 400;
+    /* font-size: 19px; */
+
+  }
+  .fig:hover{
+          /* transform: translateY(-100%); */
+    transform: scale(1);
+  }
+  .overlay{
+      
+      position: absolute;
+      top: 0;left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      opacity: 0;
+      text-align: center;
+      /* transition: 0.45s ease-in-out; */
+      
+  }
+
+  .col-work{
+      padding: 0;
+      width: 100%;
+      height: 100%;
+  }
+  .grid{
+      margin-top: 7%;
+  }
+  .ovalbutton2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -2%;
+    display: inline-block;
+    max-width: 100%;
+    max-height: 55%;
+}
+.ovalbutton2:hover{
+    background-color: #8C43FF;
+    color: white;
+    cursor: pointer;
+}
+
+.ovalbutton2
+{
+    background-color: transparent;
+    font-weight: 400;
+    /* position: fixed; */
+    /* float: inherit; */
+    padding: 2.5% 5% 2.5% 5%;
+    font-size: 1vw;
+    white-space: 
+    nowrap;
+    width: auto;
+    display: inline-block;
+    overflow-x: visible;
+    font-family: 'Arial';
+    border: 2px solid #8C43FF;
+    border-radius: 25px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+/* margin-bottom: 5.5%; */
+    text-align: center;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    transition: background-color 0.5s ease;
+
+ }
+ @media only screen and (max-width:580px){
+     .ovalbutton2{
+         font-size: 2vw;
+     }
+  
+ }
+ 
+
+ .image-title{
+    clear: both;
+    padding-top: 5%;
+    font-size: 1vw;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: Agency FB;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    /* font-size: 25vp; */
+    padding: 5% 6% 2% 6%;
+ }
+
+
+ .dribble-button{
+    background-color: transparent;
+    font-weight: 400;
+    /* position: fixed; */
+    /* float: inherit; */
+    padding: 10px 15px 10px 15px;
+    font-size: 18px;
+    font-family: 'Arial';
+    border: 2px solid #8C43FF;
+    border-radius: 25px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: background-color 0.5s ease;
+ }
+ 
+ .column{
+     margin: auto;
+ }
+ .clear{
+     clear: both;
+     padding: 100px;
+ }
+.row{
+    display: flex;
+}
+
+ .fig2 {
+     text-align: center;
+     border: 1px solid lightgray;
+    /* position: static; */
+    font-weight: normal;
+    display: inline-block;
+    /* height: 100%; */
+    /* width: 100%; */
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-bottom: 4rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0 5px 5px 0  #E6ECF8;
+  }
+  .col-work2{
+    margin-top: -250px;
+    /* margin-bottom: 500px; */
+    /* flex: 1; additionally, equal width */
+  
+    padding: 1.25em;
+    /* border: solid transparent; */
+/* width: auto; */
+  } .row-eq-height{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
+
+   .fig2 img {
+       margin-top: 3rem;
+       margin-bottom: 1rem;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* vertical-align: top; */
+    height: 50px;
+    width: auto;
+    /* max-width: 100%; */
+  }
+  .discussion-para{
+      margin-top: 1.25rem;
+  }
+  .forstyle{
+      margin-bottom: 10rem;
+      margin-top: -100px;
+  }
+  .round-img{
+      border-radius: 50%;
+      height: 7rem;
+      width: 7rem;
+      display: block;
+      margin-top: 5rem;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .para3{
+      height: auto;
+      width: auto;
+    clear: both;
+    padding-top: 5%;
+    /* font-size: 20px; */
+    font-family: Agency FB;
+    text-align: center;
+    /* font-weight: 800; */
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 5rem;
+  }
+  .round-icons{
+      border:2px solid lightgray;
+      border-radius: 50%;
+      height: 2.50rem;
+      width: 2.50rem;
+      display: block;
+      /* margin-top: 5rem; */
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+
+  }
+  .sideB{
+    border-right: 1px solid lightgray;
+    border-top: 20px;
+  }
+  @media only screen and (max-width:770px){
+   
+  .sideB{
+      margin-bottom: 10%;
+    border-right: 1px solid transparent;
+    /* border-top: 1px solid lightgray; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .classC{
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }   
+  }
+  @media only screen and (max-width:1000px){
+   
+  .sideB{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.classC{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}   
+  }
+
+  @media screen and (max-width: 580px) {
+    .image-title {
+      font-size: 6vw;
+    } /*<--- This one closes your h1 selector */
+  } /*<--- This one closes your media query */
+  
+  @media screen and (min-width: 580px){
+      .image-title{
+          font-size: 1.5vw;
+      }
+  }
+
+
+  /* The Overlay (background) */
+.overlay1 {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay1-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay1 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay1 a:hover, .overlay1 a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay1 .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay1 a {font-size: 20px}
+    .overlay1 .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
