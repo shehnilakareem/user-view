@@ -11,8 +11,8 @@ export class MainPageComponent implements OnInit {
   // @ViewChild('close') elementRef2:ElementRef;
   isMiddleDivVisible: boolean = false;
   text: string;
-
-
+// public ivar = [{"hd":"Heading 1","screen":"screenshots1.jpg"},{"hd":"Heading 2","screen":"screenshots2.jpg"}];
+public ivar = ["screenshots1.jpg","screenshots2.jpg"];
 public myvar : boolean = false;
   public onClick(){
     console.log("clicked");
@@ -29,7 +29,7 @@ public myvar : boolean = false;
   }
   public visitProject(){
     this.isMiddleDivVisible=false;
-    console.log("clicked");
+    console.log("clicked:"+this.ivar);
     console.log(this.rd.setStyle(
       this.elementRef.nativeElement,
       'width',
