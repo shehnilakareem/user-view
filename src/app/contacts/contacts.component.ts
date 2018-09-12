@@ -1,7 +1,8 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialogModule, MatDialogRef, MatDialog } from '@angular/material';
 import { DialogComponent } from '../dialog/dialog.component';
-import { ifStmt } from '../../../node_modules/@angular/compiler/src/output/output_ast';
+import { UserService } from '../services/user.service';
+import Swal from 'sweetalert2'
 
 
 @Component({
@@ -11,41 +12,29 @@ import { ifStmt } from '../../../node_modules/@angular/compiler/src/output/outpu
   styleUrls: ['./contacts.component.css']
 })
 export class ContactsComponent implements OnInit {
-name;phone;comment;
+  senderEmail: String;
+  comment: String;
+  fileNameDialogRef: MatDialogRef<DialogComponent>;
 
-fileNameDialogRef: MatDialogRef<DialogComponent>;
+  constructor(public userService: UserService) {
 
-constructor(private dialog: MatDialog) {
-  
-}
+  }
 
   ngOnInit() {
   }
-  sendmail(name,phone,comment){
-    this.name=name;
-    this.phone=phone;
-    this.comment=comment;
+  sendmail() {
+    var data = {
+      senderEmail: this.senderEmail,
+      message: this.comment
+    }
+    this.userService.sendMail(data).subscribe(res => {
+      Swal("Done!", "Your Message has been sent.", "success");
 
-if(!this.name || !this.phone || !this.comment){
-  console.log("true");
-  this.openDialog();
-
-  
-}else if(!this.phone){
-  console.log( "false");
-}
-
+    }, err => {
+      console.log(err);
+      Swal("Oops!", err, "error");
+    }
+    )
   }
-openDialog(){
-  
-  this.fileNameDialogRef = this.dialog.open(DialogComponent,{
-    hasBackdrop: true,
-    height: '40%',
-    width: '20%',
-    panelClass: 'app-full-bleed-dialog', 
 
-    // box-shadow:''
-    
-  });
-}
 }
