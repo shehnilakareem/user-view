@@ -50,6 +50,8 @@ body
 .ovalbutton:hover{
     background-color: #8C43FF;
     color: white;
+    cursor: pointer;
+
 }
 .logo{
     float: left;
