@@ -2,6 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialogModule, MatDialogRef, MatDialog } from '@angular/material';
 import { DialogComponent } from '../dialog/dialog.component';
 import { UserService } from '../services/user.service';
+import { Router } from '../../../node_modules/@angular/router';
 import Swal from 'sweetalert2'
 
 
@@ -16,7 +17,7 @@ export class ContactsComponent implements OnInit {
   comment: String;
   fileNameDialogRef: MatDialogRef<DialogComponent>;
 
-  constructor(public userService: UserService) {
+  constructor(public userService: UserService, private router: Router) {
 
   }
 
@@ -36,5 +37,9 @@ export class ContactsComponent implements OnInit {
     }
     )
   }
+  public onClick(){
+    console.log("clicked");
+    this.router.navigate(['mainPage']);
 
+  }
 }

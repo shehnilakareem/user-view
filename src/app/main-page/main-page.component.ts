@@ -12,7 +12,12 @@ export class MainPageComponent implements OnInit {
   isMiddleDivVisible: boolean = false;
   text: string;
 // public ivar = [{"hd":"Heading 1","screen":"screenshots1.jpg"},{"hd":"Heading 2","screen":"screenshots2.jpg"}];
-public ivar = ["screenshots1.jpg","screenshots2.jpg"];
+public ivar ;
+public ivar0 = ["masjid1.jpg","masjid2.jpg"];
+public ivar1 = ["mda1.jpg","mda2.jpg"];
+public ivar2 = ["screenshots1.jpg","screenshots2.jpg"];
+public ilinks = ["http://arrahman.com.pk/","https://www.flashbuz.com/products/listing"];
+
 public myvar : boolean = false;
   public onClick(){
     console.log("clicked");
@@ -27,8 +32,31 @@ public myvar : boolean = false;
     console.log(this.elementRef.nativeElement.textContent);
 
   }
-  public visitProject(){
+  public refreshPage(){
+    location.reload();
+
+  }
+  public references(){
+    this.router.navigate(["/"]).then(result=>{window.location.href = "https://www.fiverr.com/shehnilakarim";});
+
+  }
+  public visitLink(link : number){
+    window.open(this.ilinks[link]);
+
+  }
+  public visitProject(index : number){
     this.isMiddleDivVisible=false;
+    switch(index){
+      case 0:
+      this.ivar = this.ivar0;
+      break;
+      case 1:
+      this.ivar =this.ivar1;
+      break;
+      case 2:
+      this.ivar = this.ivar2;
+      break;
+    }
     console.log("clicked:"+this.ivar);
     console.log(this.rd.setStyle(
       this.elementRef.nativeElement,

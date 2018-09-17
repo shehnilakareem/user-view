@@ -55,6 +55,7 @@ body
 }
 .logo{
     float: left;
+    cursor: pointer;
    /* height: 40px; */
    /* height: 40px;  */
 }

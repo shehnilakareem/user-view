@@ -140,11 +140,11 @@
 .wrapper li {
     padding: 2px ;
 }
-a{
+#a{
     color: #8C43FF;
     text-decoration: none;
     font-weight: bold;
-    
+ cursor: pointer;   
 }
 .fig {
     position: relative;
@@ -158,6 +158,7 @@ a{
   }
   .fig img {
     border-radius: 10px;
+    border: 1px solid darkgray;
 
     display: inline-block;
     height: auto;
@@ -353,6 +354,7 @@ max-height: 100%;
       margin-top: 5rem;
       margin-left: auto;
       margin-right: auto;
+      cursor: pointer;
   }
   .para3{
       height: auto;
@@ -525,4 +527,22 @@ max-height: 100%;
 }
 .head2{
     margin-bottom: 2rem;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #8C43FF;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-color: #fff;
 }
