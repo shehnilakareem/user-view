@@ -40,6 +40,21 @@ public myvar : boolean = false;
     this.router.navigate(["/"]).then(result=>{window.location.href = "https://www.fiverr.com/shehnilakarim";});
 
   }
+  public social(item: number){
+    switch(item){
+      case 0:
+      this.router.navigate(["/"]).then(result=>{window.location.href = "https://www.fiverr.com/shehnilakarim";});
+      break;
+      case 1:
+      break;
+      case 2:
+      break;
+      case 3:
+      break;
+      case 4:
+      break;
+    }
+  }
   public visitLink(link : number){
     window.open(this.ilinks[link]);
 
